@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import Admin from "./AdminFile/Admin";
 import Description from "./Description/Description";
 import ErrorManagements from "./ErrorManagements/ErrorManagements";
-import Narbar from "./section/NavBar/Narbar";
+import Navbar from "./section/NavBar/Narbar";
 import About from "./section/about/About";
 import Contact from "./section/contact/Contact";
 import Footer from "./section/footer/Footer";
@@ -59,9 +59,10 @@ const App = () => {
     };
   }, []);
   return (
-    <>
+    <div className="  justify-between h-max">
       <BrowserRouter>
-        <Narbar />
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -76,6 +77,7 @@ const App = () => {
           <Route path="/Description" element={<Description />} />
           <Route path="*" element={<ErrorManagements />} />
         </Routes>
+
         <Footer />
       </BrowserRouter>
 
@@ -88,7 +90,7 @@ const App = () => {
           <MdEmergencyShare />
         </button>
       </a>
-    </>
+    </div>
   );
 };
 

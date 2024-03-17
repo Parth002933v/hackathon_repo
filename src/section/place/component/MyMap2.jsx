@@ -105,7 +105,7 @@ function MyMap2() {
       });
 
 
-  
+
 
       place.hoverdPlaceID === p.id ? moveToNewPosition({ lat: p.lat, lng: p.lng }) : null
       markersRef.current.push(marker);

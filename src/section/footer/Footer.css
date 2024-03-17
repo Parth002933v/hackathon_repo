@@ -11,8 +11,8 @@
   font: bold 16px sans-serif;
   padding: 35px;
 
-  margin-top: 38px;
-  bottom: 10%;
+  /* margin-top: 38px; */
+  /* bottom: 10%; */
 }
 
 .footer-distributed .footer-left,
@@ -141,7 +141,7 @@
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .footer-distributed .footer-icons {
@@ -161,7 +161,7 @@
   line-height: 35px;
 
   margin-right: 3px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -176,7 +176,7 @@
   .footer-distributed .footer-right {
     display: block;
     width: 100%;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     text-align: center;
   }
 
