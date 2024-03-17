@@ -77,10 +77,10 @@ const About = () => {
 
         <div className="mt-12 text-center">
           <h3 className="text-2xl font-semibold text-gray-800">
-            Meet Our Team
+            Team
           </h3>
           <p className="mt-2 text-gray-600">
-            Our creative, passionate, and hardworking team.
+            KumbNavigate Team Members
           </p>
 
           <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -89,7 +89,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
@@ -103,7 +103,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
@@ -116,7 +116,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
@@ -129,7 +129,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
@@ -142,7 +142,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
@@ -155,7 +155,7 @@ const About = () => {
               <div className="flex flex-col items-center">
                 <img
                   className="w-24 h-24 rounded-full"
-                  src="https://via.placeholder.com/150"
+                  src="src/assets/Profile-PNG-File.png"
                   alt="Team Member"
                 />
                 <h4 className="mt-4 font-semibold text-lg text-gray-800">
