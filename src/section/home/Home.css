@@ -1,0 +1,116 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  /* width: 20rem; */
+}
+
+.card_image {
+  height: 10rem;
+}
+
+.card_body {
+  gap: 2rem;
+  margin: 20px;
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .card {
+    width: 20rem; /* Adjust card width to fit smaller screens */
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .card_body {
+    gap: 1rem; /* Reduce gap between elements for better spacing */
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 425px) {
+  .card {
+    width: 22rem; /* Adjust card width to fit smaller screens */
+    flex-wrap: wrap;
+  }
+
+  .card_body {
+    gap: 1rem; /* Reduce gap between elements for better spacing */
+    margin: 10px; /* Adjust margin for better spacing */
+    margin-top: 1.2rem;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .card {
+    width: 21rem;
+    margin-top: 0.4rem;
+    margin-left: -1.5rem;
+  }
+
+  .card_body {
+    display: grid;
+    gap: 2rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1014px) {
+  .card {
+    width: 22rem;
+    margin-top: 0.4rem;
+  }
+
+  .card_body {
+    display: grid;
+    gap: 2rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 1012px) and (max-width: 1256px) {
+  .card_body {
+    width: 20rem;
+    margin-left: 4.4rem;
+    margin-top: 2rem;
+    display: grid;
+    gap: 4rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1590px) and (max-width: 1900px) {
+  .card_body {
+    margin-left: 50px;
+    display: grid;
+    gap: 1rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (min-width: 1901px) and (max-width: 2500px) {
+  .card_body {
+    margin-left: 50px;
+    display: grid;
+    gap: 1rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (min-width: 2500px) and (max-width: 2800px) {
+  .card_body {
+    margin-left: 50px;
+    display: grid;
+    gap: 1rem; /* Reduce gap between elements for better spacing */
+    grid-template-columns: repeat(7, 1fr);
+  }
+}

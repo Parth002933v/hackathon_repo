@@ -1,0 +1,157 @@
+{
+    "places": [
+        {
+            "category": "stay",
+            "id": "h1",
+            "name": "Lords Plaza Surat",
+            "url": "https://cdn0.weddingwire.in/emp/fotos/5/6/8/6/img-20191018-wa0015_15_115686-159186775865931.jpg",
+            "lat": 21.20296,
+            "lng": 72.83897,
+            "description": "Lords Plaza Surat offers luxurious rooms with modern amenities, a rooftop swimming pool, a fitness centre, and a restaurant serving Indian, Chinese, and Western dishes. Conveniently located near the railway terminal and airport, it provides free Wi-Fi, comfortable seating areas, and en suite bathrooms. The property has a rating of 9 out of 10 according to Tripadvisor."
+        },
+        {
+            "category": "stay",
+            "id": "h2",
+            "name": "Hotel Sifat International",
+            "url": "https://th.bing.com/th/id/OIP.hbqGL5jJBhm0n-bkavg4TgHaE8?rs=1&pid=ImgDetMain",
+            "lat": 21.204718,
+            "lng": 72.83919,
+            "description": "Hotel Sifat International is a 3-star property in Surat with air-conditioned rooms, free WiFi, and a restaurant serving Chinese cuisine. Enjoy a buffet or continental breakfast and plan your stay with the help of the English and Hindi speaking staff. The property has a rating of 8 out of 10 according to Tripadvisor."
+        },
+        {
+            "category": "toilets",
+            "id": "t1",
+            "name": "SMC Pay & Use Public Toilet",
+            "url": "https://images.indianexpress.com/2018/08/toilet.jpg",
+            "lat": 21.204718,
+            "lng": 72.83919,
+            "description": "SMC Pay & Use Public Toilet is located in Rustampura, Surat. It is a 5-star facility with air-conditioned rooms, free WiFi, and a restaurant serving Chinese cuisine. The English and Hindi speaking staff are available to assist you. The property has a rating of 5 out of 5 according to user reviews."
+        },
+        {
+            "category": "toilets",
+            "id": "t2",
+            "name": "Portable Toilet Cabin",
+            "url": "https://th.bing.com/th/id/OIP.tt1xnjM-_veAbArX3k5epgHaF3?rs=1&pid=ImgDetMain",
+            "lat": 21.20296,
+            "lng": 72.83897,
+            "description": "Portable Toilet Cabin in Surat offers steel rectangular cabins for construction sites. These cabins are 4’ x 4’ in size and come with comfortable seating areas, en suite bathrooms, and free Wi-Fi. The property provides a convenient solution for sanitation needs. No. of compartments: 1. It is a trusted supplier with verified trustseal."
+        },
+        {
+            "category": "food_stalls",
+            "id": "f1",
+            "name": "Jani Locho House",
+            "url": "https://10619-2.s.cdn12.com/rests/original/804_503252365.jpg",
+            "lat": 21.15214,
+            "lng": 72.83897,
+            "description": "Jani Locho House serves the tempting street food of Surat, including the famous 'Locho.' Locho is a delightful dish born out of a mistake during the preparation of Khaman. Served with tangy green chutney and crispy sev, it’s a must-try! Visit Jani Locho & Khaman House for the best Locho in entire Surat."
+        },
+        {
+            "category": "food_stalls",
+            "id": "f2",
+            "name": "Mini Meals",
+            "url": "https://cdn0.weddingwire.in/emp/fotos/5/6/8/6/img-20191018-wa0015_15_115686-159186775865931.jpg",
+            "lat": 21.2047123,
+            "lng": 72.83919,
+            "description": "Mini Meals offers a range of Surati Indian street food specialties. From Misal Pav to Nan Khatai, you’ll find a variety of flavors here. The English and Hindi speaking staff are ready to assist you."
+        },
+        {
+            "category": "food_stalls",
+            "id": "f3",
+            "name": "Gangour",
+            "url": "https://cdn0.weddingwire.in/emp/fotos/5/6/8/6/img-20191018-wa0015_15_115686-159186775865931.jpg",
+            "lat": 21.12047123,
+            "lng": 72.83919,
+            "description": "Gangour is another popular street food stall in Surat. Their menu includes delicious treats like Ghari, Undhiyu, Bhajiya, and Ponk Vadas."
+        },
+        {
+            "category": "food_stalls",
+            "id": "f4",
+            "name": "Kailash Sweets and Snacks",
+            "url": "https://th.bing.com/th/id/R.e99a3c24ca95302cfaa6f1b013d20a01?rik=4lc6G38L9JQw4A&riu=http%3a%2f%2fwww.kailashsweets.com%2fblog%2fwp-content%2fuploads%2f2017%2f10%2fwebsite-adajan.jpg&ehk=MMxkhF7Sc%2fPQwLn2Cxtpbf69TTR5U4seZAf18pS2aSQ%3d&risl=&pid=ImgRaw&r=0",
+            "lat": 21.2351,
+            "lng": 72.83919,
+            "description": "At Kailash Sweets and Snacks, indulge in mouth-watering Surti Sev Khamani, Pav Bhaji, and other delightful street food items."
+        },
+        {
+            "category": "food_stalls",
+            "id": "f5",
+            "name": "Motiram",
+            "url": "https://cdn0.weddingwire.in/emp/fotos/5/6/8/6/img-20191018-wa0015_15_115686-159186775865931.jpg",
+            "lat": 21.15631,
+            "lng": 72.83919,
+            "description": "Motiram is known for its delectable Chatkaaz and other street food delights. Don’t miss out on their flavorful offerings!"
+        },
+        {
+            "category": "colleges",
+            "id": "c1",
+            "name": "Veer Narmad South Gujarat University",
+            "url": "https://getmyuni.azureedge.net/college-images-test/veer-narmad-south-gujarat-university-surat/7188078994e347489f8bb01dc5fdcb78.jpeg",
+            "lat": 21.153784733512516,
+            "lng": 72.78309173645026,
+            "description": "Veer Narmad South Gujarat University is a well-known institution in Surat. It offers various undergraduate and postgraduate programs. The campus is located in the heart of the city."
+        },
+        {
+            "category": "colleges",
+            "id": "c2",
+            "name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+            "url": "https://www.newsilike.in/wp-content/uploads/Sardar-Vallabhbhai-National-Institute-of-Technology-768x485.jpg",
+            "lat": 21.166598816010055,
+            "lng": 72.78327286713694,
+            "description": "Sardar Vallabhbhai National Institute of Technology (SVNIT) is a premier engineering college in Surat. It offers B.Tech programs in various disciplines. SVNIT has a strong reputation for academic excellence and research."
+        },
+        {
+            "category": "colleges",
+            "id": "c3",
+            "name": "AURO University",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/1595333731Cover.jpeg",
+            "lat": 21.178583107812166,
+            "lng": 72.73533274124702,
+            "description": "AURO University is a private university in Surat. It offers undergraduate and postgraduate courses in various fields, including management, law, and liberal arts. The campus provides a conducive environment for holistic development."
+        },
+        {
+            "category": "colleges",
+            "id": "c4",
+            "name": "Bhagwan Mahavir University",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/160057955579000021132600064826526103121103920037888o.jpg",
+            "lat": 21.14038644346074,
+            "lng": 72.79414468062888,
+            "description": "Bhagwan Mahavir University is a multidisciplinary institution in Surat. It offers programs in engineering, management, pharmacy, and other fields. The university focuses on practical learning and industry exposure."
+        },
+        {
+            "category": "colleges",
+            "id": "c5",
+            "name": "Sarvajanik College of Engineering and Technology",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/1596516824Cover.jpg?tr=c-force",
+            "lat": 21.182188859733973,
+            "lng": 72.80864109597316,
+            "description": "Sarvajanik College of Engineering and Technology (SCET) is a renowned engineering college in Surat. It offers undergraduate and postgraduate courses in engineering and technology. SCET emphasizes research and innovation."
+        },
+        {
+            "category": "colleges",
+            "id": "c6",
+            "name": "Indian Institute of Information Technology, Surat",
+            "url": "https://img.collegepravesh.com/2017/06/IIIT-Surat.png",
+            "lat": 21.26921834746701,
+            "lng": 72.95053366528909,
+            "description": "Indian Institute of Information Technology (IIIT), Surat, is an institute of national importance. It offers B.Tech programs in computer science and electronics. IIIT Surat focuses on cutting-edge research and technology."
+        },
+        {
+            "category": "colleges",
+            "id": "c7",
+            "name": "C. K. Pithawala College of Engineering and Technology",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.13215467597078,
+            "lng": 72.71816932665833,
+            "description": "C. K. Pithawala College of Engineering and Technology is an engineering college in Surat. It provides undergraduate programs in various engineering disciplines. The college aims to produce skilled professionals."
+        },
+        {
+            "category": "colleges",
+            "id": "c8",
+            "name": "METAS of Seventh-day Adventist Colleges",
+            "url": "https://th.bing.com/th/id/R.ba90cea46b4ec3ee4593493a92507849?rik=577j3DMNO7Xqyg&riu=http%3a%2f%2fwww.thebigger.com%2funiversities%2fwp-content%2fuploads%2f2011%2f09%2fMetas-Adventist-College.jpg&ehk=C6oqY79OiAnsgxR08bjf0U%2f90I7%2fbPd23nm0e29%2fJvk%3d&risl=&pid=ImgRaw&r=0",
+            "lat": 21.184128543918096,
+            "lng": 72.80887648814344,
+            "description": "METAS of Seventh-day Adventist Colleges is a Christian institution in Surat. It offers programs in nursing, education, and other fields. The college promotes values-based education and community service."
+        }
+    ]
+}
