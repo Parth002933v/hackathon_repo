@@ -104,6 +104,11 @@ const Navbar = () => {
           <Link to={"/About"}>About</Link>
           <Link to={"/Contact"}>Contact</Link>
           <Link to={"/Navigate"}>Navigate</Link>
+          <Link to={"/PlaceRoute"}>PlaceRoute</Link>
+
+          
+
+
           {/* <TbWorld
             to={"translate"}
             className="translate-icon"

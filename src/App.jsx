@@ -1,5 +1,8 @@
 import { MdEmergencyShare } from "react-icons/md";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+
+
 
 // INTERNAL IMPORT
 import { useEffect } from "react";
@@ -13,6 +16,7 @@ import Footer from "./section/footer/Footer";
 import Home from "./section/home/Home";
 import Login from "./section/login/Login";
 import MapSeaction from "./section/place/Map_seaction";
+import PlaceRoute from "./section/placeRoute/PlaceRoute";
 
 const googleTranslateElementInit = () => {
   new window.google.translate.TranslateElement(
@@ -64,6 +68,10 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Admin" element={<Admin />} />
           <Route path="/Navigate" element={<MapSeaction />} />
+          <Route path="/PlaceRoute" element={<PlaceRoute />} />
+
+
+
           <Route path="/Login" element={<Login />} />
           <Route path="/Description" element={<Description />} />
           <Route path="*" element={<ErrorManagements />} />
