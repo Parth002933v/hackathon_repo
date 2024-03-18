@@ -36,8 +36,8 @@
             "id": "c5",
             "name": "Sarvajanik College of Engineering and Technology",
             "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/1596516824Cover.jpg?tr=c-force",
-            "lat": 21.182188859733973,
-            "lng": 72.80864109597316,
+            "lat": 21.182000,
+            "lng": 72.808000,
             "description": "Sarvajanik College of Engineering and Technology (SCET) is a renowned engineering college in Surat. It offers undergraduate and postgraduate courses in engineering and technology. SCET emphasizes research and innovation."
         },
         {
@@ -81,37 +81,20 @@
             "description": ""
         },
         {
-            "id": "c11",
-            "name": "scet",
-            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
-            "lat": 21.1819888,
-            "lng": 72.8073061,
-            "description": ""
-        },
-        
-        {
-            "id": "c12",
-            "name": "scet",
-            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
-            "lat": 21.1820631,
-            "lng": 72.8034339,
-            "description": ""
-        },
-        {
             "id": "c13",
-            "name": "SRKI",
-            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
-            "lat": 21.1820631,
-            "lng": 72.8034339,
-            "description": ""
+            "name": "Shree Ramkrishna Institute Of Computer Education And Applied Sciences",
+            "url": "https://govinddholakia.com/wp-content/uploads/2020/02/ShreeRamkrishna-Institue-04.png",
+            "lat": 21.182793,
+            "lng": 72.806892,
+            "description": "Aspiring for excellence through world class education, research & Innovation in contemporary and prospective sciences in the service of humanity."
         },
         {
             "id": "c14",
-            "name": "pt science",
-            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
-            "lat": 21.1825104,
-            "lng": 72.804588,
-            "description": ""
+            "name": "Sir P.T. Sarvajanik College of Science",
+            "url": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/9365/2020/5/14/Campus%20View%20of%20Sir%20PT%20Sarvajanik%20College%20of%20Science%20Surat_Campus-View.jpg",
+            "lat": 21.182854429624065,
+            "lng": 72.80712636977646,
+            "description": "Sir P.T. Sarvajanik College of Science is a science graduation college in Surat, Gujarat, India. The college is affiliated to Veer Narmad south Gujarat University. The college offers under-graduate courses in chemistry, mathematics, physics, botany and zoology. It also provides post-graduate courses in chemistry, physics and botany and Phd. Courses in chemistry, physics and zoology."
         }
     ]
 }
