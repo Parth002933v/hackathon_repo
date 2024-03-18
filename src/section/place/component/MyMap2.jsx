@@ -24,7 +24,7 @@ function useGoogleMapsLoader() {
 }
 
 function MyMap2() {
-  const place = useSelector((state) => state.place);
+  const Selector = useSelector((state) => state.placeStore);
   const mapRef = useRef(null);
   const markersRef = useRef([]);
   const [infoWindow, setInfoWindow] = useState(null);
@@ -84,7 +84,7 @@ function MyMap2() {
 
 
     const google = window.google;
-    const placesService = await Place.PlacesService(map);
+    const placesService =  Place.PlacesService(map);
     const request = {
       location: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
       radius: '5000',
@@ -112,16 +112,16 @@ function MyMap2() {
       markersRef.current.forEach(marker => marker.setMap(null));
       markersRef.current = [];
     };
-  }, [place, isGoogleMapsLoaded]);
+  }, [Selector, isGoogleMapsLoaded]);
 
 
   // Function to create markers for places
   async function createMarkers() {
     const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
-    place.places.forEach((p) => {
+    Selector.places.forEach((p) => {
 
-      const pinElement = place.hoverdPlaceID === p.id
+      const pinElement = Selector.hoverdPlaceID === p.id
         ? new PinElement({ scale: 1.2, background: "#ffffff" }).element
         : null;
 
@@ -132,13 +132,13 @@ function MyMap2() {
         map: mapRef.current,
         content: pinElement,
         title: p.name,
-        zIndex: place.hoverdPlaceID === p.id ? 2 : undefined,
+        zIndex: Selector.hoverdPlaceID === p.id ? 2 : undefined,
       });
 
 
 
 
-      place.hoverdPlaceID === p.id ? moveToNewPosition({ lat: p.lat, lng: p.lng }) : null
+      Selector.hoverdPlaceID === p.id ? moveToNewPosition({ lat: p.lat, lng: p.lng }) : null
       markersRef.current.push(marker);
 
 
@@ -173,7 +173,6 @@ function MyMap2() {
     const contentString = `
       <div class="info-content" style="padding: 7px; max-width: 200px;">
         <h1 style="font-size: 15px; margin: 0;">${place.name}</h1>
-        
         <img src="${place.url}" class="w-full h-16 my-1 border p-0.5 border-black object-cover" alt="" />
         <p class="line-clamp-5 " style="font-size: 12px;">${place.description}</p>
       </div>

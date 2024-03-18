@@ -1,12 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import places from "./collages.json"
+import places from "./data.json"
 
 
 const initialState = {
     category: "all",
-
-    places: places.collages,
+    places: places.places,
     hoverdPlaceID: "",
 
 }

@@ -1,3 +1,6 @@
+
+
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -79,6 +82,8 @@ const Footer = () => {
         </div>
       </footer>
     </div>
+
+    
   );
 };
 

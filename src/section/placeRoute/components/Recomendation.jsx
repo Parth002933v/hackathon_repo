@@ -1,29 +1,24 @@
 import React from 'react';
-import DropDownMenu from './dropDownMunu';
 import { useSelector, useDispatch } from 'react-redux';
-import { onPlaceHover } from '../mapPlaceSlice'
 
+import { onPlaceHover, onNavigate } from "../placeRouteSlice"
 
 
 export default function Recommendation() {
 
-    const selector = useSelector((state) => state.placeStore);
+    const selector = useSelector((state) => state.collagesStore);
 
     return (
         <>
-            <h1 className='text-xl lg:text-3xl font-sans font-medium'>Hotels & places around you</h1>
+            <h1 className='text-xl lg:text-3xl font-sans font-medium'>All the collages around you</h1>
             <h4 className='font-sans text-xs font-thin'>Type</h4>
-            <DropDownMenu />
+
             <div className='flex-grow mt-5 w-full overflow-y-scroll p-1' style={{ height: "70vh" }}>
 
-                {selector.places.length === 0 ? (
-                    <h1 className='text-center'>Please Select Category to find all the available places</h1>
-                ) : (
-                    selector.places.map((p) => (
-                        <RecommendationCard placeData={p} placeName={p.name} description={p.description} url={p.url} key={p.id} />
-                    ))
-                )}
-
+                {selector.collages.map((p) => (
+                    <RecommendationCard placeData={p} placeName={p.name} description={p.description} url={p.url} key={p.id} />
+                ))
+                }
             </div>
         </>
     );
@@ -52,7 +47,10 @@ function RecommendationCard({ placeData }) {
                 </div>
 
                 <button type="button"
-                    className="px-6 py-2 w-full mt-4 rounded-lg text-white text-sm tracking-wider font-semibold border-none outline-none bg-[#fba834] hover:bg-[#d19848] active:bg-blue-600">
+                    className="px-6 py-2 w-full mt-4 rounded-lg text-white text-sm tracking-wider font-semibold border-none outline-none bg-[#fba834] hover:bg-[#d19848] active:bg-blue-600"
+
+                    onClick={() => { dispatch(onNavigate(placeData)) }}
+                >
                     Navigate
                 </button>
             </div>

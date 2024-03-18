@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { onCategoryChange } from '../mapPlaceSlice'
 
 export default function DropDownMenu() {
-  const place = useSelector((state) => state.place)
+  const place = useSelector((state) => state.placeStore)
   const dispatch = useDispatch()
 
   const [isOpen, setIsOpen] = useState(false);

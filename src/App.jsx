@@ -59,7 +59,7 @@ const App = () => {
     };
   }, []);
   return (
-    <div className="  justify-between h-max">
+    <div className="  justify-between   h-screen flex flex-col ">
       <BrowserRouter>
         <Navbar />
 
@@ -70,8 +70,8 @@ const App = () => {
           <Route path="/Admin" element={<Admin />} />
           <Route path="/Navigate" element={<MapSeaction />} />
           <Route path="/PlaceRoute" element={<PlaceRoute />} />
-          
-          
+
+
           <Route path="/Admin" element={<Admin />} />
 
 
@@ -81,7 +81,10 @@ const App = () => {
           <Route path="*" element={<ErrorManagements />} />
         </Routes>
 
+
+
         <Footer />
+
       </BrowserRouter>
 
       <a href="tel:+902817176">

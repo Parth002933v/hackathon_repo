@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-500 to-white py-3 px-3 sm:px-5">
+    <div className=" bg-gradient-to-b from-orange-500 to-white py-3 px-3 sm:px-5">
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-slate-700">
           <b>KUMBHNAVIGATE</b>
