@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+
+import { updatePlaces } from '../mapPlaceSlice';
 
 // Custom hook to ensure Google Maps library is loaded
 function useGoogleMapsLoader() {
@@ -7,7 +9,7 @@ function useGoogleMapsLoader() {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC5A2sHR79T-plzqTAkSVreNeMQ-phTCH4&libraries&callback=initMap`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyA4todpLrs5XYQAsgXD9hGRB5ZcgX4RD8g&libraries&callback=initMap`;
     script.async = true;
 
 
@@ -21,14 +23,13 @@ function useGoogleMapsLoader() {
   return isLoaded;
 }
 
-
-
-
 function MyMap2() {
   const place = useSelector((state) => state.place);
   const mapRef = useRef(null);
   const markersRef = useRef([]);
   const [infoWindow, setInfoWindow] = useState(null);
+  const dispatch = useDispatch();
+
   const isGoogleMapsLoaded = useGoogleMapsLoader();
 
 
@@ -49,8 +50,14 @@ function MyMap2() {
     });
     mapRef.current = map;
 
+    getUserCurrentLocation()
     setInfoWindow(new window.google.maps.InfoWindow());
 
+
+  }, [isGoogleMapsLoaded]);
+
+
+  const getUserCurrentLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
@@ -59,6 +66,7 @@ function MyMap2() {
             lng: position.coords.longitude,
           };
           createCurrentUserMarker(userPos);
+          fetchNearbyPlaces(userPos);
         },
         (error) => {
           console.error('Error getting user location:', error);
@@ -67,7 +75,30 @@ function MyMap2() {
     } else {
       console.error('Geolocation is not supported by this browser.');
     }
-  }, [isGoogleMapsLoaded]);
+  }
+
+  // Function to fetch nearby places using Google Places API
+  const fetchNearbyPlaces = async (position) => {
+
+    const { Place } = await google.maps.importLibrary("places");
+
+
+    const google = window.google;
+    const placesService = await Place.PlacesService(map);
+    const request = {
+      location: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+      radius: '5000',
+      type: ['lodging'],
+    };
+
+    placesService.nearbySearch(request, (results, status) => {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        console.log('Places found: ', results);
+        dispatch(updatePlaces(results)); // Dispatch action to update Redux store
+      }
+    });
+  };
+
 
   useEffect(() => {
     initMap();
@@ -151,7 +182,7 @@ function MyMap2() {
     return contentString;
   }
 
-  return <div ref={mapRef} id="map" style={{ width: '100%', height: '95%' }} />;
+  return <div ref={mapRef} id="map" className="w-full h-full" />;
 }
 
 export default React.memo(MyMap2);

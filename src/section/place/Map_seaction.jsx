@@ -2,27 +2,31 @@ import { useState } from 'react'
 
 import Recomendation from "./component/Recomendation"
 import MyMap2 from './component/MyMap2'
+import DraggablePanel from './component/DraggablePanel'
+
+
 
 function MapSeaction() {
-    const places = [
-        { name: 'Place 1', latitude: 40.7128, longitude: -74.006 },
-        { name: 'Place 2', latitude: 34.0522, longitude: -118.243 },
-        // Add more places as needed
-    ];
+
     return (
-        <div className='  flex  max-lg:flex-col-reverse justify-between w-[100%] '>
-            <div className=' lg:w-[40%] max-lg:w-[100%]  h-screen py-6 px-4  '>
+        <div className='flex flex-col lg:flex-row justify-between w-full h-screen'>
+            <div className='order-2 lg:order-1 w-full lg:w-1/2 xl:w-2/5 h-1/2 lg:h-full py-6 px-4 overflow-auto'>
                 <Recomendation />
             </div>
-            <div className='   w-full h-screen max-lg:h-96 py-6 px-6 ' >
+            <div className='order-1 lg:order-2 w-full lg:w-1/2 xl:w-3/5 h-1/2 lg:h-full py-6 px-6'>
+                <MyMap2 />
 
-                {/* <MyMap /> */}
-                <MyMap2 places={places} />
-            
             </div>
 
 
         </div>
+
+        // <div className='relative w-full h-screen'>
+        //     <MyMap2 />
+        //     <DraggablePanel>
+        //         <Recomendation />
+        //     </DraggablePanel>
+        // </div>
 
     )
 }

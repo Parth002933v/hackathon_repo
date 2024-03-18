@@ -1,0 +1,117 @@
+{
+    "collages": [
+        {
+            "id": "c1",
+            "name": "Veer Narmad South Gujarat University",
+            "url": "https://getmyuni.azureedge.net/college-images-test/veer-narmad-south-gujarat-university-surat/7188078994e347489f8bb01dc5fdcb78.jpeg",
+            "lat": 21.153784733512516,
+            "lng": 72.78309173645026,
+            "description": "Veer Narmad South Gujarat University is a well-known institution in Surat. It offers various undergraduate and postgraduate programs. The campus is located in the heart of the city."
+        },
+        {
+            "id": "c2",
+            "name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+            "url": "https://www.newsilike.in/wp-content/uploads/Sardar-Vallabhbhai-National-Institute-of-Technology-768x485.jpg",
+            "lat": 21.166598816010055,
+            "lng": 72.78327286713694,
+            "description": "Sardar Vallabhbhai National Institute of Technology (SVNIT) is a premier engineering college in Surat. It offers B.Tech programs in various disciplines. SVNIT has a strong reputation for academic excellence and research."
+        },
+        {
+            "id": "c3",
+            "name": "AURO University",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/1595333731Cover.jpeg",
+            "lat": 21.178583107812166,
+            "lng": 72.73533274124702,
+            "description": "AURO University is a private university in Surat. It offers undergraduate and postgraduate courses in various fields, including management, law, and liberal arts. The campus provides a conducive environment for holistic development."
+        },
+        {
+            "id": "c4",
+            "name": "Bhagwan Mahavir University",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/160057955579000021132600064826526103121103920037888o.jpg",
+            "lat": 21.14038644346074,
+            "lng": 72.79414468062888,
+            "description": "Bhagwan Mahavir University is a multidisciplinary institution in Surat. It offers programs in engineering, management, pharmacy, and other fields. The university focuses on practical learning and industry exposure."
+        },
+        {
+            "id": "c5",
+            "name": "Sarvajanik College of Engineering and Technology",
+            "url": "https://images.static-collegedunia.com/public/college_data/images/appImage/1596516824Cover.jpg?tr=c-force",
+            "lat": 21.182188859733973,
+            "lng": 72.80864109597316,
+            "description": "Sarvajanik College of Engineering and Technology (SCET) is a renowned engineering college in Surat. It offers undergraduate and postgraduate courses in engineering and technology. SCET emphasizes research and innovation."
+        },
+        {
+            "id": "c6",
+            "name": "Indian Institute of Information Technology, Surat",
+            "url": "https://img.collegepravesh.com/2017/06/IIIT-Surat.png",
+            "lat": 21.26921834746701,
+            "lng": 72.95053366528909,
+            "description": "Indian Institute of Information Technology (IIIT), Surat, is an institute of national importance. It offers B.Tech programs in computer science and electronics. IIIT Surat focuses on cutting-edge research and technology."
+        },
+        {
+            "id": "c7",
+            "name": "C. K. Pithawala College of Engineering and Technology",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1819938,
+            "lng": 72.806066,
+            "description": "C. K. Pithawala College of Engineering and Technology is an engineering college in Surat. It provides undergraduate programs in various engineering disciplines. The college aims to produce skilled professionals."
+        },
+        {
+            "id": "c8",
+            "name": "METAS of Seventh-day Adventist Colleges",
+            "url": "https://th.bing.com/th/id/R.ba90cea46b4ec3ee4593493a92507849?rik=577j3DMNO7Xqyg&riu=http%3a%2f%2fwww.thebigger.com%2funiversities%2fwp-content%2fuploads%2f2011%2f09%2fMetas-Adventist-College.jpg&ehk=C6oqY79OiAnsgxR08bjf0U%2f90I7%2fbPd23nm0e29%2fJvk%3d&risl=&pid=ImgRaw&r=0",
+            "lat": 21.184128543918096,
+            "lng": 72.80887648814344,
+            "description": "METAS of Seventh-day Adventist Colleges is a Christian institution in Surat. It offers programs in nursing, education, and other fields. The college promotes values-based education and community service."
+        },
+        {
+            "id": "c9",
+            "name": "MTB coollege",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1819938,
+            "lng": 72.8060662,
+            "description": ""
+        },
+        {
+            "id": "c10",
+            "name": "kp college of commerce",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1819938,
+            "lng": 72.806066,
+            "description": ""
+        },
+        {
+            "id": "c11",
+            "name": "scet",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1819888,
+            "lng": 72.8073061,
+            "description": ""
+        },
+        
+        {
+            "id": "c12",
+            "name": "scet",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1820631,
+            "lng": 72.8034339,
+            "description": ""
+        },
+        {
+            "id": "c13",
+            "name": "SRKI",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1820631,
+            "lng": 72.8034339,
+            "description": ""
+        },
+        {
+            "id": "c14",
+            "name": "pt science",
+            "url": "https://i.ytimg.com/vi/SFjswoDv6as/maxresdefault.jpg",
+            "lat": 21.1825104,
+            "lng": 72.804588,
+            "description": ""
+        }
+    ]
+}

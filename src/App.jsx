@@ -70,6 +70,9 @@ const App = () => {
           <Route path="/Admin" element={<Admin />} />
           <Route path="/Navigate" element={<MapSeaction />} />
           <Route path="/PlaceRoute" element={<PlaceRoute />} />
+          
+          
+          <Route path="/Admin" element={<Admin />} />
 
 
 

@@ -1,11 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import places from "./data.json"
+import places from "./collages.json"
+
 
 const initialState = {
     category: "all",
 
-    places: places.places,
+    places: places.collages,
     hoverdPlaceID: "",
 
 }
@@ -18,11 +19,11 @@ export const mapPlaceSlice = createSlice({
 
 
             if (action.payload === "all") {
-                state.places = places.places
+                state.places = places.collages
                 state.category = "all"
             }
             else {
-                state.places = places.places.filter((e) => (e.category === action.payload))
+                state.places = places.collages.filter((e) => (e.category === action.payload))
                 state.category = action.payload
             }
         },
@@ -34,10 +35,15 @@ export const mapPlaceSlice = createSlice({
 
 
         }
+        ,
+        updatePlaces: (state, action) => {
+
+            state.category = action.payload
+        }
 
     },
 })
 
-export const { onCategoryChange, onPlaceHover } = mapPlaceSlice.actions
+export const { onCategoryChange, onPlaceHover, updatePlaces } = mapPlaceSlice.actions
 
 export default mapPlaceSlice.reducer

@@ -11,10 +11,10 @@ export default function Recommendation() {
 
     return (
         <>
-            <h1 className='text-3xl font-sans font-medium'>Hotels & places around you</h1>
+            <h1 className='text-xl lg:text-3xl font-sans font-medium'>Hotels & places around you</h1>
             <h4 className='font-sans text-xs font-thin'>Type</h4>
             <DropDownMenu />
-            <div className='flex-grow  mt-5 w-full overflow-y-scroll p-1 scroll-my-8' style={{ height: "80%" }}>
+            <div className='flex-grow mt-5 w-full overflow-y-scroll p-1' style={{ height: "70vh" }}>
 
                 {place.places.length === 0 ? (
                     <h1 className='text-center'>Please Select Category to find all the available places</h1>
