@@ -30,7 +30,7 @@ function Route({ from, to }) {
 }
 
 export default function PlaceRoute() {
-  const position = [21.110825686183734, 72.76942046718713]; // Default map center, 
+  const position = [21.110825686183734, 72.76942046718713]; // Default map center,
   const from = [21.218952689182697, 72.7863030800531]; // Starting point (A), 
   const to = [21.18232818727316, 72.80600879597314]; // Destination (B) , 
 
